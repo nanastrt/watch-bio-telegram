@@ -11,7 +11,7 @@ function clock($time){
     $newtime = time() + $timeOffset;
 return Date("$time",$newtime);
 }
-$date = clock("Y/m/d");
+$date = clock("Y/m/m");
 $time = clock("h:i");
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
