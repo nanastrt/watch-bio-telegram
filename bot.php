@@ -9,7 +9,7 @@ function clock($time){
     $dateDiff = new DateTime("now", $tehran);
     $timeOffset = $tehran->getOffset($dateDiff);
     $newtime = time() + $timeOffset;
-return Date("$time",$newtime);
+return Date("$time",$newtime)
 }
 $date = clock("Y/m/m");
 $time = clock("h:i");
