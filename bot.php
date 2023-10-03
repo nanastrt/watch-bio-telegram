@@ -7,6 +7,10 @@ function clock($time){
        $tehran = new DateTimeZone("Asia/Tehran");
     $london = new DateTimeZone("Europe/London");
     $dateDiff = new DateTime("now", $tehran);
+    $servername = "localhost";
+    $username = "username";
+    $password = "password";
+    $dbname = "database";
     $timeOffset = $tehran->getOffset($dateDiff);
     $newtime = time() + $timeOffset;
 return Date("$time",$newtime)
