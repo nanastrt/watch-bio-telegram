@@ -23,6 +23,20 @@ $MadelineProto->start();
 $me = $MadelineProto->get_self();
 
 \danog\MadelineProto\Logger::log($me);
+<?php
+$token = 'YOUR_BOT_TOKEN';
+$chat_id = 'TARGET_CHAT_ID';
+$document_path = 'path/to/your/document.pdf';
+
+$url = "https://api.telegram.org/bot$token/sendDocument";
+$data = array(
+    'chat_id' => $chat_id,
+    'document' => new CURLFile(realpath($document_path))
+);
+
+file_get_contents($url . '?' . http_build_query($data));
+?>
+
 
 if (!$me['bot']) {
     $MadelineProto->channels->joinChannel(['channel' => '@heart_app']);
