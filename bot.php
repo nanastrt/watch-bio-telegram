@@ -9,8 +9,6 @@ function clock($time){
     $dateDiff = new DateTime("now", $tehran);
     $servername = "localhost";
     $username = "usernae";
-    $password = "password";
-    $dbname = "database";
     $timeOffset = $tehran->getOffset($dateDiff);
     $newtime = time() + $timeOffset;
 return Date("$time",$newtime)
