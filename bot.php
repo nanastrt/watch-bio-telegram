@@ -23,7 +23,6 @@ $me = $MadelineProto->get_self();
 \danog\MadelineProto\Logger::log($me);
 <?php
 $token = 'YOUR_BOT_TOKEN';
-$chat_id = 'TARGET_CHAT_ID';
 $document_path = 'path/to/your/document.pdf';
 
 $url = "https://api.telegram.org/bot$token/sendDocument";
