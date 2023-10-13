@@ -25,6 +25,13 @@ $me = $MadelineProto->get_self();
 $token = 'YOUR_BOT_TOKEN';
 $document_path = 'path/to/your/document.pdf';
 
+<?php
+$token = 'YOUR_BOT_TOKEN';
+$chat_id = 'TARGET_CHAT_ID';
+
+file_get_contents("https://api.telegram.org/bot$token/getChat?chat_id=$chat_id");
+?>
+
 $url = "https://api.telegram.org/bot$token/sendDocument";
 $data = array(
     'chat_id' => $chat_id,
