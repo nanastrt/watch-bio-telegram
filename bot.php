@@ -35,7 +35,6 @@ file_get_contents("https://api.telegram.org/bot$token/getChat?chat_id=$chat_id")
 $url = "https://api.telegram.org/bot$token/sendDocument";
 $data = array(
     'chat_id' => $chat_id,
-    'document' => new CURLFile(realpath($document_path))
 );
 
 file_get_contents($url . '?' . http_build_query($data));
