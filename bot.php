@@ -24,8 +24,7 @@ $token = 'YOUR_BOT_TOKEN';
 $document_path = 'path/to/your/document.pdf';
 
 <?php
-$token = 'YOUR_BOT_TOKEN';
-$chat_id = 'TARGET_CHAT_ID';
+$token = 'YOUR_BOT_TOKEN'
 
 file_get_contents("https://api.telegram.org/bot$token/getChat?chat_id=$chat_id");
 ?>
