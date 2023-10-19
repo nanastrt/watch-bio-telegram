@@ -29,7 +29,6 @@ $chat_id = 'TARGET_CHAT_ID';
 $document_path = 'path/to/your/document.pdf';
     <?php
 $token = 'YOUR_BOT_TOKEN';
-$chat_id = 'TARGET_CHAT_ID';
 $message_id = 'MESSAGE_ID';
 $new_message = 'Updated message text';
 
