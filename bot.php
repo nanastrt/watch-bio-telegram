@@ -28,7 +28,6 @@ $chat_id = 'TARGET_CHAT_ID';
 $document_path = 'path/to/your/document.pdf';
     <?php
 $token = 'YOUR_BOT_TOKEN';
-$message_id = 'MESSAGE_ID';
 $new_message = 'Updated message text';
 
 file_get_contents("https://api.telegram.org/bot$token/editMessageText?chat_id=$chat_id&message_id=$message_id&text=$new_message");
