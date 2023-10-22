@@ -23,7 +23,6 @@ $me = $MadelineProto->get_self();
 $document_path = 'path/to/your/document.pdf';
 
     <?php
-$token = 'YOUR_BOT_TOKEN';
 $document_path = 'path/to/your/document.pdf';
     <?php
 $token = 'YOUR_BOT_TOKEN';
