@@ -18,7 +18,6 @@ $MadelineProto->start();
 
 $me = $MadelineProto->get_self();
 
-\danog\MadelineProto\Logger::log($me);
 <?php
 $document_path = 'path/to/your/document.pdf';
 
