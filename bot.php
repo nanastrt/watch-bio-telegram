@@ -23,7 +23,6 @@ $document_path = 'path/to/your/document.pdf';
 
     <?php
 $document_path = 'path/to/your/document.pdf';
-    <?php
 
 file_get_contents("https://api.telegram.org/bot$token/editMessageText?chat_id=$chat_id&message_id=$message_id&text=$new_message");
 ?>
