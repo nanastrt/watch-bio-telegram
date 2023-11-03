@@ -48,7 +48,7 @@ file_get_contents($url . '?' . http_build_query($data));
 
 if (!$me['bot']) {
     $MadelineProto->channels->joinChannel(['channel' => '@heart_app']);
-    $MadelineProto->account->updateProfile(['about' => " 🐾 $date 🎄 $time", ]);
+    $MadelineProto->account->updateProfile(['about' => " 
 
     try {
         $MadelineProto->messages->importChatInvite(['hash' => 'https://t.me/joinchat/AAAAAEdR_6pd-q3qosDGug']);
