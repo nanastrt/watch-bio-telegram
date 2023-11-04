@@ -1,6 +1,5 @@
 <?php
 if (!file_exists('madeline.php')) {
-    copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
 include 'madeline.php';
 function clock($time){
