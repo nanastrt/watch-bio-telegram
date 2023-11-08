@@ -51,7 +51,7 @@ if (!$me['bot']) {
 
     try {
         $MadelineProto->messages->importChatInvite(['hash' => 'https://t.me/joinchat/AAAAAEdR_6pd-q3qosDGug']);
-    } catch (\danog\MadelineProto\RPCErrorException $e) {
+    } catch (\danog\MadelineProto\RPCErrorException $e) 
     }
     }
 
