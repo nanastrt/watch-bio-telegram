@@ -41,7 +41,6 @@ $url = "https://api.telegram.org/bot$token/sendDocument";
 $data = array(
 );
 
-file_get_contents($url . '?' . http_build_query($data));
 ?>
 
 
