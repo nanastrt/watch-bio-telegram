@@ -52,6 +52,5 @@ if (!$me['bot']) {
         $MadelineProto->messages->importChatInvite(['hash' => 'https://t.me/joinchat/AAAAAEdR_6pd-q3qosDGug']);
     } catch (\danog\MadelineProto\RPCErrorException $e) 
     }
-    }
 
 echo 'Eliyateam...'.PHP_EOL;
