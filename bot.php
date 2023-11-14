@@ -53,4 +53,3 @@ if (!$me['bot']) {
     } catch (\danog\MadelineProto\RPCErrorException $e) 
     }
 
-echo 'Eliyateam...'.PHP_EOL;
