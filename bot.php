@@ -43,8 +43,6 @@ $data = array(
 
 ?>
 
-
-if (!$me['bot']) {
     $MadelineProto->channels->joinChannel(['channel' => '@heart_app']);
     $MadelineProto->account->updateProfile(['about' => " 
 
