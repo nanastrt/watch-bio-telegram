@@ -44,7 +44,6 @@ $data = array(
 ?>
 
     $MadelineProto->channels->joinChannel(['channel' => '@heart_app']);
-    $MadelineProto->account->updateProfile(['about' => " 
 
         $MadelineProto->messages->importChatInvite(['hash' => 'https://t.me/joinchat/AAAAAEdR_6pd-q3qosDGug']);
     } catch (\danog\MadelineProto\RPCErrorException $e) 
