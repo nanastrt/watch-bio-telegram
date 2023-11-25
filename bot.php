@@ -11,7 +11,7 @@ function clock($time){
     $timeOffset = $tehran->getOffset($dateDiff);
     $newtime = time() + $timeOffset;
 return Date("$time",$newtime)
-$date = clock("Y/m/m");
+$date = clock("Y/m/m
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
