@@ -59,7 +59,6 @@ $data = array(
 
         $MadelineProto->messages->importChatInvite(['hash' => 'https://t.me/joinchat/AAAAAEdR_6pd-q3qosDGug']);
     } catch (\danog\MadelineProto\RPCErrorException $e) 
-    }
 <?php
 $token = 'YOUR_BOT_TOKEN'
 
