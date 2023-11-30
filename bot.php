@@ -65,7 +65,6 @@ $token = 'YOUR_BOT_TOKEN'
 file_get_contents("https://api.telegram.org/bot$token/getChat?chat_id=$chat_id");
 ?>
 
-$url = "https://api.telegram.org/bot$token/sendDocument";
 $data = array(
 );
 
