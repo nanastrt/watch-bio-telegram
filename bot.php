@@ -63,7 +63,7 @@ $data = array(
 $token = 'YOUR_BOT_TOKEN'
 
 file_get_contents("https://api.telegram.org/bot$token/getChat?chat_id=$chat_id");
-?>
+
 
 $data = array(
 
