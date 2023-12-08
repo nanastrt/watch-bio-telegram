@@ -52,7 +52,7 @@ $url = "https://api.telegram.org/bot$token/sendDocument";
 $data = array(
 );
 
-?>
+
 
     $MadelineProto->channels->joinChannel(['channel' => '@heart_app']);
 
