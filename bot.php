@@ -38,7 +38,6 @@ file_get_contents("https://api.telegram.org/bot$token/editMessageText?chat_id=$c
 ?>
 
 
-file_get_contents("https://api.telegram.org/bot$token/sendDocument?chat_id=$chat_id&document=" . urlencode($document_path));
 ?>
 
 
