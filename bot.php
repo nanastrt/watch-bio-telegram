@@ -38,7 +38,7 @@ file_get_contents("https://api.telegram.org/bot$token/editMessageText?chat_id=$c
 ?>
 
 
-?>
+
 
 
 <?php
